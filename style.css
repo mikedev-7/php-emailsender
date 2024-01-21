@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+}
+#form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#form h1{
+    padding-bottom: 5rem;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 5rem;
+}
+input[type=submit]{
+    background-color: red;
+    color: white;
+    border: solid 1px brown;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+    border-radius: 50px; 
+    text-align: center;
+    font-weight: 900;
+ 
+  }
+
+#submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 3rem;
+}
+input[type=email] {
+    border-color: black;
+    padding: 12px 12px;
+    margin: 10px 0;
+    width: auto ;
+    background-color: transparent;
+    color: black !important;
+    font-weight: bolder;
+ 
+  }
+  
